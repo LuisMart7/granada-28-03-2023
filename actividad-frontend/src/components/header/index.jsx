@@ -1,3 +1,4 @@
+import { Avatar } from "@mui/material";
 import zaraLogo from "../../assets/images/zara-logo.svg";
 import { Placeholder } from "../placeholder";
 import "./style.css";
@@ -14,8 +15,7 @@ export const Header = () => {
                 <img src={zaraLogo} alt="Zara" data-testid="zara-logo" onClick={onClick} />
             </div>
             <div className="header__avatar">
-                {/* TODO: Ejercicio 1 cambiar el componente Placeholder por nuestro componente Avatar */}
-                <Placeholder width={30} height={30} />
+                <Avatar>LU</Avatar>
             </div>
         </div>
     )

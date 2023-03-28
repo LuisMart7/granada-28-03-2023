@@ -26,7 +26,7 @@ export const Filter = ({category, setCategory}) => {
         <Select
           labelId="demo-simple-select-standard-label"
           id="demo-simple-select-standard"
-          value={categories}
+          value={category}
           onChange={(e) => setCategory(e.target.value)}
           label="Category"
         >
