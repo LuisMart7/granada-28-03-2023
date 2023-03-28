@@ -7,7 +7,7 @@ import "./style.css";
 export const Table = ({ cards }) => {
     return (
         <div className="ranking__table">
-            <Card sx={{minWidth: "100px"}}>
+            <Card>
                 1
             </Card>
             <Card>

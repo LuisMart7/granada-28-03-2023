@@ -1,9 +1,12 @@
 import "./style.css";
+import * as React from 'react';
 import {useState, useEffect } from 'react';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+
+
 
 /**
  * Este componente es de ejemplo y solo sirve para marcar sitios en el layout.
@@ -18,10 +21,12 @@ export const Filter = ({category, setCategory}) => {
             .then((response) => setCategories(response))
     },[])
 
+    const defaultValue = '2022-04-17T15:30';
     
 
     return (
-        <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+        <div class="ranking__filter">
+<FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
         <InputLabel id="demo-simple-select-standard-label">Category</InputLabel>
         <Select
           labelId="demo-simple-select-standard-label"
@@ -35,5 +40,7 @@ export const Filter = ({category, setCategory}) => {
           }
         </Select>
       </FormControl>
+        </div>
+        
     )
 }

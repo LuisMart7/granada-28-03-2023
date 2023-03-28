@@ -12,8 +12,7 @@ export const Ranking = ({}) => {
 
     return (
         <div className="ranking">
-            Primer intento
-            <div className="ranking_filter">
+            <div className="ranking__filter">
                 <Filter category={category} setCategory={setCategory}/>
             </div>
             <div className="ranking__table">
