@@ -1,0 +1,8 @@
+.ranking__table{
+    display: flex;
+    gap: 20px;
+}
+
+.ranking__table * {
+    width: 100px;
+}

@@ -1,0 +1,8 @@
+.carta{
+    margin-right: 20px;
+    background-color: aliceblue;
+    width: 25%;
+}
+.cartas{
+    display: flex;
+}

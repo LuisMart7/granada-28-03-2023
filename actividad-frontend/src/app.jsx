@@ -1,6 +1,9 @@
 import { Header } from "./components/header";
 import { Placeholder } from "./components/placeholder";
+import { Ranking } from "./components/ranking";
 import "./app.css";
+import { Summary } from "./components/summary/style";
+import { CartaD } from "./components/summary/carta.jsx";
 
 function App() {
   return (
@@ -8,12 +11,10 @@ function App() {
       <Header />
       <div className="container">
         <div className="summary">
-          {/* TODO: Ejercicio 2 - Crear el componente resumen  */}
-          <Placeholder />
+          <CartaD />
         </div>
         <div className="ranking">
-          {/* TODO: Ejercicio 3 - Crear el componente ranking  */}
-          <Placeholder />
+          <Ranking/>
         </div>
       </div>
     </div>
