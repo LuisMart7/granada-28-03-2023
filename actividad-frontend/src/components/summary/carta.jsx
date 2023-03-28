@@ -27,22 +27,31 @@ export const CartaD = ({}) => {
         <div className='cartas'>
     <div className='carta'>
         <CardContent>
-        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-            {orders} orders
+        <Typography sx={{ fontSize: 36 }} color="text.secondary" gutterBottom align='center'>
+            {orders}
+        </Typography>
+        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom align='center'>
+            pedidos
         </Typography>
         </CardContent>
     </div>
-    <div className='carta2'>
+    <div className='carta'>
         <CardContent>
-        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-            {uds} unidades
+        <Typography sx={{ fontSize: 36 }} color="text.secondary" gutterBottom align='center'>
+            {uds}
+        </Typography>
+        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom align='center'>
+            unidades
         </Typography>
         </CardContent>
     </div>
-    <div className='carta3'>
+    <div className='carta'>
         <CardContent>
-        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-            {sales} ventas
+        <Typography sx={{ fontSize: 36 }} color="text.secondary" gutterBottom align='center'>
+            {sales}
+        </Typography>
+        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom align='center'>
+            importes
         </Typography>
         </CardContent>
     </div>
